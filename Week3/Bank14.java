@@ -1,3 +1,4 @@
+package week3;
 import java.util.Scanner;
 public class Bank14 {
     public static void main(String[] args) {

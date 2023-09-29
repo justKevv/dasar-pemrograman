@@ -1,3 +1,4 @@
+package week3;
 /**
  * ExampleVariabel14
  */

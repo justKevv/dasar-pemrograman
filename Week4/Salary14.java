@@ -1,3 +1,4 @@
+package week4;
 import java.util.Scanner;
 public class Salary14 {
     public static void main(String[] args) {

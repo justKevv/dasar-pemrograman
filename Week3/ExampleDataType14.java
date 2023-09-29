@@ -1,3 +1,4 @@
+package week3;
 public class ExampleDataType14 {
     public static void main(String[] args) {
         char bloodGroups = 'A';
