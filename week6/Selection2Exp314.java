@@ -6,7 +6,7 @@ public class Selection2Exp314 {
     public static void main(String[] args) {
         String category;
         int income = 0;
-        double tax =0;
+        double tax = 0;
         int netcome;
 
         Scanner input14 = new Scanner(System.in);
