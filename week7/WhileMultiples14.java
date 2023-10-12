@@ -16,7 +16,7 @@ public class WhileMultiples14 {
             if (i % multiple == 0) {
                 sum += i;
                 counter++;
-                //calculate the average
+                //calculate the averages
                 average = sum / counter;
             }
             i++;
