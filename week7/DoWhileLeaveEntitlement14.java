@@ -34,6 +34,9 @@ public class DoWhileLeaveEntitlement14 {
                     System.out.println("Your Leave Entitlement is not enough to take this leave.");
                     break;
                 }
+                //Added break statement
+            } else {
+                break;
             }
         } while (leaveEntitlement > 0);
     }
