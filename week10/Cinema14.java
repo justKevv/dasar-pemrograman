@@ -16,8 +16,8 @@ public class Cinema14 {
         
         System.out.println(audience.length);
 
-        for (int i = 0; i < audience.length; i++) {
-            System.out.println("Length of row "+ (i + 1) + " is " + audience[i].length);
+        for (String[] rowAudience : audience) {
+            System.out.println("Length of row: " + rowAudience.length);
         }
         
     }
