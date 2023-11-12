@@ -9,13 +9,17 @@ public class arrayValue14 {
 
         int[] finalScores = new int[10];
 
-        for (int i = 0; i < 10; i++) {
-            System.out.print("Enter the final score " + i + ": ");
+        for (int i = 0; i < finalScores.length; i++) {
+            System.out.println("Enter final score " + i + ": ");
             finalScores[i] = sc.nextInt();
         }
 
         for (int i = 0; i < 10; i++) {
-            System.out.println("Final score " + i + " is " + finalScores[i]);
+            if (finalScores[i] > 70) {
+                System.out.println("Student " + i + " Passed!");
+            } else {
+                System.out.println("Student " + i + " Failed!");
+            }
         }
     }
 }
