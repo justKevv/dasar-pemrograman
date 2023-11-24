@@ -1,16 +1,16 @@
 package week13;
 
 public class CubeStudent14 {
-    static int area(int x, int y)  {
-        return x * y;
+    static int area(int x)  {
+        return 6 * x * x;
     }
 
-    static int volume(int x, int y, int z) {
-        return x * y * z;
+    static int volume(int x) {
+        return x * x * x;
     }
 
     public static void main(String[] args) {
-        System.out.println(area(10, 20));
-        System.out.println(volume(10, 20, 30));   
+        System.out.println(area(10));
+        System.out.println(volume(10));   
     }
 }
