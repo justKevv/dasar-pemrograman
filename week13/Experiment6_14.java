@@ -3,8 +3,9 @@ package week13;
 import java.util.Scanner;
 
 public class Experiment6_14 {
+    static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        
         int p, l, t, L, vol;
 
         System.out.print("Input length : ");
